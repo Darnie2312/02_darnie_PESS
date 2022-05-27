@@ -38,8 +38,7 @@
 	?>
 <fieldset>
 <legend>Log Call</legend>
-<form name="frmLogCall" method="post" action="dispatch.php" onSubmit="return darnieLogcall()"
-onSubmit="return darnie();">
+<form name="frmLogCall" method="post" action="dispatch.php" onSubmit="return darnieLogcall()">
 	<table width="45%" border="2" align="center"
 	cellpadding="5" cellspacing="5">
 	<tr>
