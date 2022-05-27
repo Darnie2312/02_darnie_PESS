@@ -44,11 +44,11 @@ onSubmit="return darnie();">
 	cellpadding="5" cellspacing="5">
 	<tr>
 	    <td width="20%" align="center">Name of Caller:</td>
-	    <td width="50%"><input type="text" name="callerName" id="callerName"></td>
+	    <td width="50%"><input type="text" name="callerName" id="callerName" pattern="[A-Za-z]{1,}[ ]{1}[A-Za-z]{1,}"></td>
 	</tr>
 	<tr>
 	    <td width="20%" align="center">Contact Number:</td>
-	    <td width="50%"><input type="text" name="contactNo" id="contactNo"></td>
+	    <td width="50%"><input type="text" name="contactNo" id="contactNo" maxlength="8" minlength="8" pattern="[6,8,9]{1}[0-9]{7}"></td>
 	</tr>
 	<tr>
 	    <td width="20%" align="center">Location:</td>
